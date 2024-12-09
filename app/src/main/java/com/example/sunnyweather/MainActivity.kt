@@ -22,5 +22,6 @@ class MainActivity : AppCompatActivity() {
             insets
         }
         Log.d("main","fadf")
+        Log.d("main","fadf")
     }
 }

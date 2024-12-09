@@ -6,7 +6,9 @@ plugins {
 android {
     namespace = "com.example.sunnyweather"
     compileSdk = 34
-
+    viewBinding{
+        enable=true
+    }
     defaultConfig {
         applicationId = "com.example.sunnyweather"
         minSdk = 24
@@ -42,6 +44,7 @@ dependencies {
     implementation(libs.material)
     implementation(libs.androidx.activity)
     implementation(libs.androidx.constraintlayout)
+    implementation("com.google.code.gson:gson:2.8.8")
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)

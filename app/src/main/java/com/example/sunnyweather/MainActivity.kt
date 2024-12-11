@@ -21,7 +21,5 @@ class MainActivity : AppCompatActivity() {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
-        Log.d("main","fadf")
-        Log.d("main","fadf")
     }
 }
